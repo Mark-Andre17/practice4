@@ -1,0 +1,206 @@
+:root{
+    --color-1: #FFFAF2;
+    --color-2: #F5D6AB;
+    --color-3: #C66C49;
+    --color-4: #8B3146;
+    --color-5: #333333;
+}
+*{
+    box-sizing: border-box;
+}
+body,h1,h2,h3,a,p,img,ul,li,button{
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Franklin", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    max-width: 100%;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0;
+}
+.header{
+    background: linear-gradient(rgba(198, 108, 73, 0.3),rgba(198, 108, 73, 0.3)), url('../img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 768px;
+    padding-top: 93px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 145px;
+}
+.menu-logo{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color:white;
+}
+.top-menu-items{
+    display: flex;
+    gap: 59px;
+}
+.top-menu-href{
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+.top-menu-href:hover{
+    font-weight: 600;
+}
+.header-title{
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: 0em;
+    margin-bottom: 26px;
+}
+.header-text{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-bottom: 106px;
+}
+.header-href{
+    color: white;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-decoration: underline;
+}
+.about{
+    min-height: 544px;
+    padding-top: 93px;
+}
+.about-title, .skills-title, .portfolio-title, .footer-title{
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-bottom: 76px;
+}
+.about-text{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+.skills{
+    background-color: var(--color-1);
+    padding-top: 93px;
+    min-height: 693px;
+}
+.skills-box{
+    display: flex;
+    justify-content: space-between;
+}
+.skills-box-items{
+    display: flex;
+    gap: 66px;
+}
+.skills-box-item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skills-box-item__title:first-child, .skills-box-item__text:first-child{
+    margin-bottom: 66px;
+}
+.progress{
+    width: 100%;
+    height: 24px;
+    background-color: var(--color-2);
+    border-radius: 0;
+}
+.progress-bar{
+    background-color: var(--color-3);
+}
+.skills-box-item__title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+.skills-box-item__text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+.portfolio{
+    padding-top: 93px;
+    padding-bottom: 145px;
+}
+.portfolio-title{
+    margin-bottom: 86px;
+}
+.portfolio-box-title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+}
+.portfolio-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+}
+.portfolio-box-items-left{
+    display: flex;
+    flex-direction: column;
+    gap: 235px;
+}
+.portfolio-box-items__svg{
+    width: 62px;
+    height: 24px;
+}
+.portfolio-box-items-gallery{
+    display: flex;
+    gap: 30px;
+}
+.portfolio-box-items-gallery_1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer{
+    background-color: var(--color-1);
+    padding-top: 93px;
+    padding-bottom: 70px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 95px;
+}
+.footer-box-items, .footer-box-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.footer-box-item__href{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.footer-box-item__href:hover{
+    font-weight: 600;
+}
+.footer-arrow{
+    float: right;
+}
