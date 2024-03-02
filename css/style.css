@@ -37,7 +37,8 @@ body{
     justify-content: space-between;
     margin-bottom: 145px;
 }
-.menu-logo{width: 100%;
+.menu-logo{
+    width: 100%;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
@@ -417,7 +418,7 @@ body{
     .footer-arrow{
         position: absolute;
         right: 50px;
-        bottom: -1080px;
+        bottom: -800px;
     }
 }
     
